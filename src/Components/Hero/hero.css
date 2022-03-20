@@ -1,0 +1,9 @@
+#hero-xxl-button{
+    background-color:#D11C21;
+    border:none;
+
+}
+
+#hero-xxl-button:hover{
+    background-color:red;
+}

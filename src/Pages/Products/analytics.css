@@ -1,0 +1,32 @@
+.analytics-whole img{
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 1px 1px 1px rgb(139, 139, 139);
+      
+    width: 100%;
+    
+}
+#open img{
+    height: 50vh;
+    width: 40vw;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.analytics-whole button {
+    margin-top: 30px;
+}
+@media screen and (max-width:760px){
+    #lap_wp{
+            width: 100%;
+    }
+    #open img{
+        width: 100%;
+        margin-left: 0;
+    }
+}

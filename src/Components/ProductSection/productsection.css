@@ -1,0 +1,22 @@
+.product-main{
+    
+    min-height: 500px;
+    width: 100%;
+  
+    
+    
+}
+#screen{
+    width: 110%;
+}
+
+@media screen and(max-width: 900px){
+    .product-main img {
+        height: 100%;
+        width: 50%;
+    }
+
+    
+}
+
+

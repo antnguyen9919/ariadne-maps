@@ -1,0 +1,34 @@
+#bnav{
+    /* display:none; */
+    /* margin-top: 4rem; */
+    /* display: block; */
+    z-index: 100;
+    margin-bottom: 70px;
+   
+    
+    
+    
+  
+}
+
+
+
+
+@media screen and (min-width: 960px ) {
+    #roro:hover #kaka{
+        display:block;
+        /* text-decoration:underline; */
+        
+    }
+    
+    #navbarDarkDropdownMenuLink:hover{
+        color:yellow;
+    }
+    #kaka{
+        display:none;
+    }
+    #de-flag:hover{
+        
+    }
+    
+}

@@ -1,0 +1,95 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+#vids-carousel .slide img {
+  width: 24rem;
+  margin: 0 auto;
+  height: 24*0.56rem;
+  
+}
+
+
+#vids-carousel .slide {
+  transform: scale(0.8);
+  transition: transform 300ms;
+  opacity: 0.7;
+}
+
+#vids-carousel .activeSlide {
+  transform: scale(1.0);
+  
+  opacity: 1;
+}
+
+
+#vids-carousel .arrow {
+  background:transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(2.1);
+}
+
+#vids-carousel .arrow svg {
+  transition: color 300ms;
+}
+
+#vids-carousel .arrow svg:hover {
+  color: #979797;
+}
+
+#vids-carousel .next {
+  right: 0%;
+  top: 50%;
+}
+
+#vids-carousel .prev {
+  left: 0%;
+  top: 50%;
+}
+
+@media screen and (max-width:1500px){
+  #vids-carousel .slide img {
+    width: 20rem;
+  margin: 0 auto;
+  height: 20*0.56rem;
+  }
+  
+  #vids-carousel.slide {
+    
+    transform: scale(0.4);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  #vids-carousel .activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  #vids-carousel .arrow {
+    background:transparent;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  #vids-carousel .arrow svg {
+    transition: color 300ms;
+  }
+  
+  
+  
+  #vids-carousel .next {
+    right: 0%;
+    top: 50%;
+  }
+  
+  #vids-carousel .prev {
+    left: 0%;
+    top: 50%;
+  }
+
+}
