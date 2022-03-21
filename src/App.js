@@ -1,14 +1,25 @@
 
-import { Route, Routes } from 'react-router';
+import { Route, Routes,useLocation } from 'react-router';
+import {useEffect } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import { About, Airport, Analytics, Career, Cities, Contact, Engagement, Hospitality, Mall, Mapping, Navigation, Privacy, Retail, Transport, WhyAriadne } from './Pages';
+import { About, Airport, Analytics, Career, Cities, Contact, Engagement, Hospitality, Mall, Mapping, Navigation, Privacy, Retail, Transport, WhyAriadne, Blog, Single, BlogManagement } from './Pages';
 import Home from './Pages/Home';
 import {Footer} from './Components'
 
 function App() {
+  const ScrollToTop = (props) => {
+    const location = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
+  
+    return <>{props.children}</>
+  };
   return (
     <div className="App">
+
+<ScrollToTop>
       <Navbar/>
       
       <Routes>
@@ -32,7 +43,9 @@ function App() {
           <Route exact  path = "/hospitality" element = {<Hospitality/>}/>
 
           <Route exact  path = "/about-us" element = {<About/>}/>
-          {/* <Route exact  path = "/blog" element = {<Blog/>}/> */}
+          <Route exact  path = "/blog" element = {<Blog/>}/>
+          <Route exact  path = "/blog-management" element = {<BlogManagement/>}/>
+          <Route exact path="/post/:id" element = {<Single />}/>
           {/* <Route exact  path = "/blog/:slug" element = {<PostPage/>}/> */}
           <Route exact  path = "/careers" element = {<Career/>}/>
           <Route exact  path = "/contact" element = {<Contact/>}/>
@@ -40,6 +53,7 @@ function App() {
       </Routes>
 
       <Footer/>
+      </ScrollToTop>
     </div>
   );
 }

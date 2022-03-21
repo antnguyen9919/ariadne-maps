@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-black align-items-center">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black align-items-center">
             <div className="container">
                 <Link class ='px-4 pt-1'  to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
                             

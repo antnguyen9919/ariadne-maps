@@ -18,7 +18,10 @@ import Navigation from './Products/Navigation'
 
 import Privacy from './Privacy'
 import WhyAriadne from './WhyAriadne'
+import Blog from './Company/Blog/Blog'
+import Single from './Company/Blog/Single'
+import BlogManagement from './Company/Blog/BlogManagement'
 
 
 export {Home, Career, Contact,About, Airport,Cities,Mall,Retail,Transport,Hospitality,
-Analytics,Mapping,Engagement,Navigation, Privacy, WhyAriadne}
+Analytics,Mapping,Engagement,Navigation, Privacy, WhyAriadne, Blog, Single,BlogManagement}
