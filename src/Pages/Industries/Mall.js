@@ -1,6 +1,7 @@
 import '../../App.css';
 import React from 'react';
 import shopCenter from './resources/shopCenter.jpg'
+import { Link } from "react-router-dom";
 
 function Mall() {
   return <div>
@@ -107,7 +108,7 @@ Hour by hour traffic data and trends, comparison of visitor averages by time, un
     <div class="card border-light">
       <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" class="card-img-top" alt="..."/>
       <div class="card-body">
-      <a href="#" class="btn btn-primary">Shopping</a>
+      <Link to="/" class="btn btn-primary">Shopping</Link>
         <p class="card-text mt-3 mt-3">Structure the layout and decide on the tenant mix that brings you the most returns</p>
        
       </div>
@@ -119,7 +120,7 @@ Hour by hour traffic data and trends, comparison of visitor averages by time, un
     <div class="card border-light">
       <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Airport.svg" class="card-img-top" alt="..."/>
       <div class="card-body">
-      <a href="#" class="btn btn-primary">Airports</a>
+      <Link to="/" class="btn btn-primary">Airports</Link>
         <p class="card-text mt-3 mt-3">Optimize the revenues of commercial duty free area and minimize the queue times</p>
         
       </div>
@@ -131,7 +132,7 @@ Hour by hour traffic data and trends, comparison of visitor averages by time, un
     <div class="card border-light">
       <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Train.svg" class="card-img-top" alt="..."/>
       <div class="card-body">
-      <a href="#" class="btn btn-primary">Transportation</a>
+      <Link to="/" class="btn btn-primary">Transportation</Link>
         <p class="card-text mt-3 mt-3">
 
 Engage with passengers, optimize train scheduling and make better use of your spaces</p>
@@ -145,7 +146,7 @@ Engage with passengers, optimize train scheduling and make better use of your sp
     <div class="card border-light">
       <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/City.svg" class="card-img-top" alt="..."/>
       <div class="card-body">
-      <a href="#" class="btn btn-primary">Cities</a>
+      <Link to="/" class="btn btn-primary">Cities</Link>
         <p class="card-text mt-3 mt-3">Measure the performance of your shopping streets, increase the visitor satisfaction at government buildings</p>
         
       </div>
@@ -156,7 +157,7 @@ Engage with passengers, optimize train scheduling and make better use of your sp
     <div class="card border-light">
       <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Hotel.svg" class="card-img-top" alt="..."/>
       <div class="card-body">
-      <a href="#" class="btn btn-primary">Hospitality</a>
+      <Link to="/" class="btn btn-primary">Hospitality</Link>
         <p class="card-text  mt-3">Provide the best service to your guests, increase their spending and deliver unique experiences</p>
         
       </div>

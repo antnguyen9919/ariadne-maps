@@ -7,6 +7,7 @@ import phone2 from '../../Resources/Photos/Pages/Engagement/phone2.jpg'
 import phonewp from '../../Resources/Photos/Pages/Engagement/phonewp.png'
 import scan from '../../Resources/Photos/Pages/Engagement/scan.png'
 import Usecase from '../../Components/Usecase'
+import { Link } from "react-router-dom";
 
 function Engagement() {
   return <div>
@@ -174,7 +175,7 @@ Ariadne Engagement allows you to give personalized offers and valuable product i
         <div className="col-md-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href="" className = "text-decoration-none"><h2>Ariadne Analytics</h2></a>
+            <Link to="/" className = "text-decoration-none"><h2>Ariadne Analytics</h2></Link>
             <p>
 
 Ariadne’s indoor analytics encompasses a wide variety of tools that will help you improve in every aspect of your business. From people counting to heatmaps to loyalty rates, you can view your performance, develop new strategies and watch your returns increasing.</p>
@@ -182,7 +183,7 @@ Ariadne’s indoor analytics encompasses a wide variety of tools that will help 
           <div className="col-md-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Map.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href="" className = "text-decoration-none"><h2>Ariadne Mapping</h2></a>
+            <Link to="/" className = "text-decoration-none"><h2>Ariadne Mapping</h2></Link>
             <p>
 
             Transform your physical business into a digital landscape! Ariadne Maps creates your indoor maps that can be integrated with other platforms in digital environment, and enables you to position assets and products for the ease of finding and time efficiency. </p>
@@ -190,7 +191,7 @@ Ariadne’s indoor analytics encompasses a wide variety of tools that will help 
           <div className="col-md-4">
             <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href="" className = "text-decoration-none"><h2>Ariadne Navigation</h2></a>
+            <Link to="/" className = "text-decoration-none"><h2>Ariadne Navigation</h2></Link>
             <p>
 
 Navigate your visitors and guests for an enhanced experience; show ads and promotions in your map to engage and help your customers find the right products with convenience. Ariadne Maps helps lets you use navigation data to optimize your strategies. </p>

@@ -4,6 +4,8 @@ import Asset16 from '../../Resources/Photos/Asset16.png';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import { Link } from 'react-router-dom'
 
+
+
 function Navbar() {
   return (
     <div>
@@ -74,9 +76,15 @@ function Navbar() {
                                <h5 class = 'mt-1' style ={{fontFamily:'Poppins'}} id="navbarDarkDropdownMenuLink">Let's talk</h5>
                             </Link></li>
     <li class="nav-item"> </li>
-    <li class="nav-item"><Link class="nav-link active" aria-current="page"  to ='/why-ariadne' >
-                              <img id='de-flag' src ='https://cdn-icons-png.flaticon.com/512/330/330523.png' alt='de'height='30px'/>
-                            </Link></li>
+
+    <li class="nav-item mt-1">
+                            <select class="form-select bg-black border-none text-light" aria-label="Default select example">
+  <option selected value="1">English</option>
+  <option value="2">German</option>
+  
+  <option value="3">Chinese</option>
+</select>
+                            </li>
     </ul>
 
 

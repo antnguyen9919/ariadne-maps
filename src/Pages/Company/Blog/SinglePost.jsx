@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./singlepost.css";
 import parse from 'html-react-parser'
 
-export default function SinglePost({data,moderator}) {
+export default function SinglePost({data}) {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
@@ -13,12 +13,12 @@ export default function SinglePost({data,moderator}) {
         />
         <h1 className="singlePostTitle">
           {data.title}
-          {moderator?<div className="singlePostEdit">
+          {/* {moderator?<div className="singlePostEdit">
             <i className="singlePostIcon far fa-edit"></i>
             <i className="singlePostIcon far fa-trash-alt"></i>
-          </div>:''}
+          </div>:''} */}
         </h1>
-        <div className="singlePostInfo">
+        {/* <div className="singlePostInfo">
           <span>
             Author:
             <b className="singlePostAuthor">
@@ -28,7 +28,7 @@ export default function SinglePost({data,moderator}) {
             </b>
           </span>
           <span>1 day ago</span>
-        </div>
+        </div> */}
         <p className="singlePostDesc">
         {parse(data.content)}
         </p>

@@ -78,7 +78,7 @@ function VideoCarousel({click}) {
     speed: 300,
     slidesToShow: 3,
     responsive:[
-      {breakpoint: 1000,
+      {breakpoint: 1200,
         settings:{
           slidesToShow:1,
         }

@@ -10,7 +10,7 @@ import { useLocation } from 'react-router-dom';
 
 
    return <div className='single'>
-       <SinglePost data = {data.article} moderator = {data.moderator}/>
+       <SinglePost data = {data} />
        <Sidebar/>
    </div>;
  }

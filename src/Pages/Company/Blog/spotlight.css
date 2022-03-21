@@ -2,29 +2,35 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 
+#spot-m{
+    background: rgb(106,0,0);
+background: linear-gradient(0deg, rgba(106,0,0,1) 0%, rgba(163,0,0,1) 72%);
+opacity: 0.8;
+}
+#sm-active{
+    background: rgb(106,0,0);
+background: linear-gradient(0deg, rgba(106,0,0,1) 0%, rgba(163,0,0,1) 72%);
 
-#vids-carousel .slide img {
-  width: 23rem;
-  margin: 0 auto;
-  height: 23*0.56rem;
-  
+}
+
+#sm-active #spot-card{
+    transition: transform 300ms;
+    height:30vh;
+    display: flex;
+    
+    
+}
+
+#spot-m #spot-card{
+    transition: transform 300ms;
+    height:25vh;
+    display: flex;
+   
+    
 }
 
 
-#vids-carousel .slide {
-  transform: scale(0.8);
-  transition: transform 300ms;
-  opacity: 0.7;
-}
-
-#vids-carousel .activeSlide {
-  transform: scale(1.0);
-  
-  opacity: 1;
-}
-
-
-#vids-carousel .arrow {
+#spot .arrow {
   background:transparent;
   position: absolute;
   cursor: pointer;
@@ -32,30 +38,25 @@
   transform: scale(2.1);
 }
 
-#vids-carousel .arrow svg {
+#spot .arrow svg {
   transition: color 300ms;
 }
 
-#vids-carousel .arrow svg:hover {
+#spot .arrow svg:hover {
   color: #979797;
 }
 
-#vids-carousel .next {
+#spot .next {
   right: 0%;
   top: 50%;
 }
 
-#vids-carousel .prev {
+#spot .prev {
   left: 0%;
   top: 50%;
 }
 
 @media screen and (max-width:1000px){
-  #vids-carousel .slide img {
-    width: 50vw;
-  margin: 0 auto;
-  height: 60vh;
-  }
   
   #vids-carousel.slide {
     

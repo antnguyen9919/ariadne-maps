@@ -18,6 +18,7 @@ import ERP from '../Resources/Photos/enlarge/ERP.png'
 
 
 import {ProductSection,Testimonials,Hero,VideoCarousel,BrandCarousel} from '../Components'
+import Spotlight from './Company/Blog/Spotlight';
 
 
 
@@ -40,7 +41,7 @@ function Home() {
     <BrandCarousel/>
   
     <div class = 'container text-align-center text-center mt-5 px-5 mb-5'> 
-    <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Unlock the value of your data and<br/> multiply your returns!</h1>
+    <h1 class='fw-bold' style ={{fontFamily:'Poppins', fontSize:'3.6vw'}}>Unlock the value of your data and multiply your returns!</h1>
 
     </div>
 
@@ -50,24 +51,34 @@ function Home() {
     
       <div className="row align-items-center" >
         
-          <div className="row justify-content-center">
-          <div className="col-md-6">
+          <div className="row justify-content-around">
+          <div className="col-md-7 justify-conter-center">
         <img src={screens} class = 'img-fluid' alt = {screens}/>
+        <div className="row">
+        <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+       <p class = 'fs-5'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
+       
+</button>
+        </div>
         </div>
         
           <div className="col-lg-4  text-md-start text-sm-center">
         
         <div >
-        <h6 class = 'lh-lg mb-4'>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
-        </h6>
+        <p class = 'mb-4' style ={{fontSize:'1.6vw'}} >Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.
+        </p>
         
         
-      <p><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Footfall (Total and by area)</p>
-      <p><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Dwell Time(Total and by area)</p>
-      <p><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Heatmap (2D and 3D)</p>
-      <p><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      Transitions between areas)</p>
-      <p><span style = {{paddingRight: '25px'}}><CheckIcon /></span>      ERP, BI, POS Integration</p>
-        
+      <p class = 'lh-lg'><span style = {{paddingRight: '25px',fontSize:'1.6vw'}}><CheckIcon /></span>      Footfall (Total and by area)<br/>
+      <span style = {{paddingRight: '25px',fontSize:'1.6vw'}}><CheckIcon /></span>      Dwell Time(Total and by area) <br/>
+      <span style = {{paddingRight: '25px',fontSize:'1.6vw'}}><CheckIcon /></span>      Heatmap (2D and 3D)<br/>
+      <span style = {{paddingRight: '25px',fontSize:'1.6vw'}}><CheckIcon /></span>      Transitions between areas)<br/>
+      <span style = {{paddingRight: '25px',fontSize:'1.6vw'}}><CheckIcon /></span>      ERP, BI, POS Integration
+
+      </p>
+      
+      
+      
         <div>
 
       
@@ -84,14 +95,7 @@ function Home() {
             
         </div>
         
-    <div className="row justify-content-start">
-      <div className="col-md-2 offset-md-3">
-      <button type="button" class="btn text-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-       <p class = 'fs-5'><AddCircleOutlineIcon style = {{fontSize:'100%',paddingBottom:'3px'}}/> Enlarge</p>
-       
-</button>
-      </div>
-    </div>
+    
 
     </div>
 
@@ -140,12 +144,17 @@ function Home() {
     </div>
     
 {/* Vid Carousel  text */}
-    <div className="container text-align-center text-center mt-5 px-5" >
+<div class = 'py-4' style ={{
+background: 'linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 46%)'}}>
+<div className="container text-align-center text-center mt-5 px-5"  >
     <h1 class='fw-bold text-center mt-5' style ={{fontFamily:'Poppins'}}>See how our customers are succeeding<br/> with Ariadne</h1>
     </div>
     <VideoCarousel/>
+    
+</div>
+    
   
-     <hr class = 'mt-4'/>
+     
 {/* Ariadne Platform  */}
       <div class = 'text-center px-5 mt-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>The Ariadne Platform</h1> </div>
     
@@ -215,8 +224,8 @@ With Ariadne analytics, you can review your performance in real time.</p>
         </div>
       </div>
       
-      <div className="row align-items-center  justify-content-center  p-5 " style = {{
-        background: 'linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(252,252,252,1) 20%)'}}>
+      <div className="row align-items-center  justify-content-center  p-5 " style ={{
+background: 'linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 46%)'}}>
       <div className="col-md-6">
         <h1 >Ariadne Navigation</h1>
 
@@ -242,8 +251,8 @@ The opt-in feature enables you to push notifications to your visitors the right 
         </div>
 
       </div>
-      <div className="row align-items-center  mb-5 justify-content-center  p-5" style = {{
-        background: 'linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(252,252,252,1) 20%)'}}>
+      <div className="row align-items-center  mb-5 justify-content-center  p-5" style ={{
+background: 'linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 46%)'}}>
       <div className="col-md-6">
         <h1>Ariadne Mapping</h1>
         <p class = 'mt-4 fs-5'>Transform your physical business into a digital landscape.
@@ -260,20 +269,32 @@ By enabling you to map and localize your products, Ariadne increases your effici
   {/* end  */}
 
       
-
-      
-  <div class = 'text-center px-5 my-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Trusted by industry leaders</h1> </div>
+        <div style ={{
+background: 'linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 46%)'}}>
+<div class = 'text-center px-5 my-5'> <h1 class='fw-bold' style ={{fontFamily:'Poppins'}}>Trusted by industry leaders</h1> </div>
 <Testimonials/>
-<hr />
+
+        </div>
+      
+  
+
 
 
 {/* <Testimo/> */}
+<div style ={{
+background: 'linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 36%)'}} >
 <ProductSection/>
-{/* <div className="container-fluid text-center h-75 my-5">
-  <h1>Spotlight</h1>
+</div>
+
+
+<div className="container-fluid text-center h-75 py-3 mb-5" style ={{
+background: 'linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 36%)'}} >
+  <h1 class='fw-bold' style ={{fontFamily:'Poppins', fontSize:'3.6vw'}}>Spotlight</h1>
+  <Spotlight/>
   
-  </div> */}
+  </div>
   
+ 
 
 {/* text  */}
 <div className="container d-xxl-none text-center mb-5">
@@ -281,11 +302,11 @@ By enabling you to map and localize your products, Ariadne increases your effici
 <p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
   </div>
 
-  <div className="container d-none d-xxl-block text-center mb-5">
-<h1 class='fw-bold mb-4 display-3' style ={{fontFamily:'Poppins'}}>Let's talk</h1>
+  <div className="container d-none d-xxl-block text-center">
+<h1 class='fw-bold mb-3 display-3' style ={{fontFamily:'Poppins'}}>Let's talk</h1>
 <p class='fs-4 lead'>Schedule a free 30 minute demo call with an expert</p>
   </div>
-
+  
 <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameborder="0" width='100%' height='800px' title = 'calendly' ></iframe>
 
 

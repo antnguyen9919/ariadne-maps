@@ -3,6 +3,7 @@ import React from 'react';
 import h3 from '../../Resources/Photos/h3.gif';
 import MunichOffice from '../../Resources/Photos/Pages/Navigation/MunichOffice.png';
 import Usecase from '../../Components/Usecase'
+import { Link } from "react-router-dom";
 
 function Mapping() {
   return <div>
@@ -117,7 +118,7 @@ Customize, edit and update your map with changes in your spaces, add or remove a
           <div className="col-md-4">
             <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href="" className = "text-decoration-none"><h2>Ariadne Navigation</h2></a>
+            <Link to="/" className = "text-decoration-none"><h2>Ariadne Navigation</h2></Link>
             <p>
 
 Navigate your visitors and guests for an enhanced experience; show ads and promotions in your map to engage and help your customers find the right products with convenience. Ariadne Maps helps lets you use navigation data to optimize your strategies. </p>
@@ -125,7 +126,7 @@ Navigate your visitors and guests for an enhanced experience; show ads and promo
           <div className="col-md-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg' alt ='' class = 'img-fluid' width="27%"/>
             
-            <a href="" className = "text-decoration-none"><h2>Ariadne Analytics</h2></a>
+            <Link to="/" className = "text-decoration-none"><h2>Ariadne Analytics</h2></Link>
             <p>
 
 Ariadne’s indoor analytics encompasses a wide variety of tools that will help you improve in every aspect of your business. From people counting to heatmaps to loyalty rates, you can view your performance, develop new strategies and watch your returns increasing.</p>
@@ -133,7 +134,7 @@ Ariadne’s indoor analytics encompasses a wide variety of tools that will help 
           <div className="col-md-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Engagement.svg' alt ='' width='27%'/>
              
-            <a href="#" className = "text-decoration-none"><h2>Ariadne Engagement</h2></a>
+            <Link to="/" className = "text-decoration-none"><h2>Ariadne Engagement</h2></Link>
             <p>
 
 Ariadne comes with an opt-in option for your customers. Even though the core technology does not require interaction from your visitors, with the opt-in option, you can push notifications to your customers, or just send short surveys to assess the quality of your service.</p>

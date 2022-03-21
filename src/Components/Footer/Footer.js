@@ -1,9 +1,8 @@
 import React from 'react';
 import './footer.css';
-// import  Button from './Button';
-// import './NavBar.css';
+import Asset16 from '../../Resources/Photos/Asset16.png';
 import { Link } from 'react-router-dom';
-// import '../Hero/hero.css'
+
 
 
 function Footer() {
@@ -20,6 +19,12 @@ function Footer() {
       
   <div className='footer-link-wrapper'>
     <div class='footer-link-items'>
+    <Link class =' my-2'  to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
+                            
+                            </Link>
+    </div>
+
+    <div class='footer-link-items'>
       <h3>Technology</h3>
       <Link to='/ariadne-mapping'>Ariadne Mapping</Link>
       <Link to='/ariadne-navigation'>Ariadne Navigation</Link>
@@ -28,7 +33,11 @@ function Footer() {
       {/* <Link to='/industries'>Industries</Link>
       <Link to='/data-lifecycle'>Data Lifecycle</Link> */}
     </div>
-    <div class='footer-link-items'>
+  </div>
+
+  <div className='footer-link-wrapper'>
+    
+  <div class='footer-link-items'>
       <h3>Company</h3>
       <Link to='/about-us'>About Us</Link>
       <Link to='/why-ariadne'>Why Ariadne</Link>
@@ -36,22 +45,7 @@ function Footer() {
       <Link to='/blog'>Blog</Link>
       <Link to='/careers'>Careers</Link>
     </div>
-  </div>
 
-  <div className='footer-link-wrapper'>
-    
-    <div class='footer-link-items'>
-      <h3>Social Media</h3>
-      {/* <Link to='/'>Instagram <i class='fab fa-instagram' /></Link> */}
-      
-      <a href='https://www.facebook.com/ariadnemaps/'>Facebook <i class='fab fa-facebook-f' /></a>
-      <a href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'>Youtube <i class='fab fa-youtube' /></a>
-      <a href='https://twitter.com/ariadne_maps'>Twitter <i class='fab fa-twitter' /></a>
-      <a href='https://www.linkedin.com/company/ariadne-maps'>LinkedIn <i class='fab fa-linkedin' /></a>
-    
-     
-      
-    </div>
     <div class='footer-link-items'>
       <div>
     
@@ -66,17 +60,21 @@ function Footer() {
 
 Brecherspitzstraße 8 <br/>
 
-81541 München
-</p>
-
-<p>
-
+81541 München<br/>
 +49 174 4079675
 
-contact@ariadnemaps.com</p>
+contact@ariadnemaps.com
+</p>
+
 
       </div>
       
+<div style={{fontSize:'20px'}}>
+<a style={{marginRight:'15px'}} href='https://www.facebook.com/ariadnemaps/'><i class='fab fa-facebook-f' /></a>
+      <a class = 'mx-3' href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'><i class='fab fa-youtube' /></a>
+      <a class = 'mx-3' href='https://twitter.com/ariadne_maps'><i class='fab fa-twitter' /></a>
+      <a class = 'mx-3' href='https://www.linkedin.com/company/ariadne-maps'><i class='fab fa-linkedin' /></a>
+</div>
             </div>
 
 
@@ -117,3 +115,5 @@ contact@ariadnemaps.com</p>
 }
 
 export default Footer;
+
+ 
