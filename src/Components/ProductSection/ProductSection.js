@@ -10,58 +10,86 @@ const ProductSection = () => {
     
     <div className = 'product-main '>
         
-    
-            
+
+        <div className="container d-none d-xxl-block text-center">
+      <h1  style ={{fontFamily:'Poppins'}}>{t('home.products-sec.title')}</h1>
+            <p class = 'mt-4  px-5 mx-3 text-center '>{t('home.products-sec.subtitle')}</p>
+      </div>
       <div className="container d-xxl-none">
-      <h1 class='fw-bold text-center' style ={{fontFamily:'Poppins'}}>{t('home.products-sec.title')}</h1>
-            <p class = 'mt-4 fs-3 px-5 mx-3 text-center lead'>{t('home.products-sec.subtitle')}</p>
+      <h1 class=' text-center' style ={{fontFamily:'Poppins'}}>{t('home.products-sec.title')}</h1>
+            <p class = 'mt-4  px-5 mx-3 text-center'>{t('home.products-sec.subtitle')}</p>
       </div>
 
-      <div className="container d-none d-xxl-block">
-      <h1 class='fw-bold text-center display-5' style ={{fontFamily:'Poppins'}}>{t('home.products-sec.title')}</h1>
-            <p class = 'mt-4 fs-3 px-5 mx-3 text-center lead'>{t('home.products-sec.subtitle')}</p>
+{/* end of texts  */}
+
+{/* XXL  */}
+<div className="container-fluid d-none d-xxl-block my-5 px-5">
+      <div className="row justify-content-around">
+        <div className="col-md-3 col-sm-4 m-5 col-xxl-3 p-3">
+          <img src={floor} alt=""  width={'100%'}/>
+          <h4 class = 'pt-5'>{t('home.products-sec.name.0')}</h4>
+          <p >{t('home.products-sec.desc.0')}</p>
+        </div>
+        <div className="col-md-3 m-5 col-xxl-3 p-5">
+          <img src={device2} alt="" width={'100%'} />
+          <h4 class = 'pt-5'>{t('home.products-sec.name.1')}</h4>
+          <p >{t('home.products-sec.desc.1')}</p>
+        </div>
+        <div className="col-md-3 m-5 col-xxl-3 p-5">
+          <img src={screen} alt=""  width='110%' />
+          <h4 class = 'pt-5'>{t('home.products-sec.name.1')}</h4>
+          <p>{t('home.products-sec.desc.1')}</p>
+        </div>
       </div>
-        
-    <div className="container d-xxl-none my-5">
-      <div className="row justify-content-around align-items-center p-5">
+    </div>
+
+
+      <div className="container d-none d-sm-block d-xxl-none my-5">
+      <div className="row justify-content-around align-items-center py-5 px-1">
         <div className="col-md-3 col-sm-4 mx-3">
           <img src={floor} alt="" className="img-fluid" style={{alignItems:'center'}}/>
           <h4 class = 'pt-5'>{t('home.products-sec.name.0')}</h4>
-          <p class='fs-4 lead'>{t('home.products-sec.desc.0')}</p>
+          <p >{t('home.products-sec.desc.0')}</p>
         </div>
         <div className="col-md-3 mx-3">
           <img src={device2} alt="" className="img-fluid" />
           <h4 class = 'pt-5'>{t('home.products-sec.name.1')}</h4>
-          <p class='fs-4 lead'>{t('home.products-sec.desc.1')}</p>
+          <p >{t('home.products-sec.desc.1')}</p>
         </div>
         <div className="col-md-3 mx-3">
           <img src={screen} alt="" width={'114%'}/>
           <h4 class = 'pt-5'>{t('home.products-sec.name.2')}</h4>
-          <p class='fs-4 lead'>{t('home.products-sec.desc.2')}</p>
+          <p >{t('home.products-sec.desc.2')}</p>
+        </div>
+      </div>
+    </div>
+        
+    
+    {/* XS  */}
+    <div className="container d-block d-sm-none  my-3 text-center">
+
+      <div className="row justify-content-around align-items-center p-5">
+        <div className="col">
+          <img src={floor} alt="" className="img-fluid" style={{alignItems:'center'}}/>
+          <h4 class = 'pt-3'>{t('home.products-sec.name.0')}</h4>
+          <p >{t('home.products-sec.desc.0')}</p>
+        </div>
+        <div className="col">
+          <img src={device2} alt="" className="img-fluid" />
+          <h4 class = 'pt-3'>{t('home.products-sec.name.1')}</h4>
+          <p >{t('home.products-sec.desc.1')}</p>
+        </div>
+        <div className="col">
+          <img src={screen} alt="" width={'100%'}/>
+          <h4 class = 'pt-3'>{t('home.products-sec.name.2')}</h4>
+          <p>{t('home.products-sec.desc.2')}</p>
         </div>
       </div>
     </div>
 
-    <div className="container-fluid d-none d-xxl-block my-5 px-5 mx-5">
-      <div className="row justify-content-center">
-        <div className="col-md-3 col-sm-4 m-5 col-xxl-3">
-          <img src={floor} alt=""  width={'70%'}/>
-          <h4 class = 'pt-5'>Configuration</h4>
-          <p class='fs-4 lead'>Let our team design a project based on your floor plan and industry.</p>
-        </div>
-        <div className="col-md-3 m-5">
-          <img src={device2} alt="" width={'70%'} />
-          <h4 class = 'pt-5'>Installation</h4>
-          <p class='fs-4 lead'>Simply plug the devices in the predetermined sockets.</p>
-        </div>
-        <div className="col-md-3 m-5">
-          <img src={screen} alt=""  width='80%' />
-          <h4 class = 'pt-5'>The Dashboard</h4>
-          <p class='fs-4 lead'>Voila! Now you can make the most out of your existing traffic.</p>
-        </div>
-      </div>
-    </div>
+    
 
+    <hr/>
 
     </div>
   )

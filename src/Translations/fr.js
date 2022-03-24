@@ -1,10 +1,10 @@
-export const engT = {
+export const freT = {
     
     "letstalk": "Let's talk",
     
     "navFoot": {
         "solutions": {
-                        "self":"Solutions",
+                        "self":"Produits",
                         "analytics":"Ariadne Analytics",
                         "engagement":"Ariadne Engagement",
                         "mapping":"Ariadne Mapping",
@@ -14,28 +14,28 @@ export const engT = {
         "letstalk": "Let's Talk",
         "industries":{
                         "self":"Industries",
-                        "retail":"Retail Stores",
+                        "retail":"Magasin de détail",
                         "mall":"Shopping Centres",
-                        "airports":"Airports",
-                        "cities":"Cities",
-                        "hospitality":"Hospitality",
-                        "transportation":"Transportation"
+                        "airports":"Aéroports",
+                        "cities":"Villes",
+                        "hospitality":"Hospitalité",
+                        "transportation":"Transport"
         },
-        "whyariadne":"Why Ariadne",
+        "whyariadne":"Pourquoi Ariane",
         "company":{
-                        "self":"Company",
-                        "aboutus":"About Us",
-                        "careers":"Careers",
+                        "self":"Compagnie",
+                        "aboutus":"A propos de nous",
+                        "careers":"Carrières",
                         "contact":"Contact"
         }
     },
     
     "home":{
-        "heroh1":"People Flow To Actionable Insights ",
-        "herop":"Turn your existing customer traffic into an additional source of revenue",
+        "heroh1":"Flux de personnes vers des informations exploitables",
+        "herop":"Transformez votre trafic client existant en une source de revenus supplémentaire",
         "home-sec-1":{
-                        "title":"Unlock the value of your data and multiply your returns!",
-                        "p":"Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.",
+                        "title":"Libérez la valeur de vos données et multipliez vos retours !",
+                        "p":"Ariane est considérée comme le Google Analytics du monde physique. Ariadne vous aide à analyser le comportement de vos visiteurs, vous conseille sur les stratégies et vous fournit des recommandations pour l'avenir.",
 
                         "ul": ["Footfall (Total and by area)","Dwell Time(Total and by area)",
                         "Heatmap (2D and 3D)","Transitions between areas)","ERP, BI, POS Integration"],
@@ -43,13 +43,13 @@ export const engT = {
         },
         "home-sec-2-title":"See how our customers are succeeding with Ariadne",
         "ariadne-platform-p": [
-            "Obtain people counting, heatmaps, loyalty rate and more!\n With Ariadne analytics, you can review your performance in real time.",
+            "Obtain people counting, heatmaps, loyalty rate and more! With Ariadne analytics, you can review your performance in real time.",
 
-            "Navigate your visitors and guests for an enhanced experience!\n Present promotions in your map to engage and enhance your visitors satisfaction.",
+            "Navigate your visitors and guests for an enhanced experience! Present promotions in your map to engage and enhance your visitors satisfaction.",
 
-            "Ariadne enables your visitors to opt-in to your loyalty program!\n The opt-in feature enables you to push notifications to your visitors the right moment.",
+            "Ariadne enables your visitors to opt-in to your loyalty program! The opt-in feature enables you to push notifications to your visitors the right moment.",
             
-            "Transform your physical business into a digital landscape.\n By enabling you to map and localize your products, Ariadne increases your efficiency."],
+            "Transform your physical business into a digital landscape. By enabling you to map and localize your products, Ariadne increases your efficiency."],
         "testimonials-title":"Trusted by industry leaders",
         "products-sec":{
                          "title":"Get Started",

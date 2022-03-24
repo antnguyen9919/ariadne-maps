@@ -7,15 +7,18 @@ export default function Post({article,img}) {
   //   moderator
     
   // }
-  return (
-    <div className="post">
-      <Link to={`/post/${article.slug}`} state={article} className="link">
-      <img
+
+  
+  return ( 
+    <div id='post-card' className=" container rounded post border">
+        
+      
+          
+          <img
         className="postImg"
         src={img}
         alt=""
       />
-          </Link>
       
       <div className="postInfo">
         {/* <div className="postCats">
@@ -38,10 +41,18 @@ export default function Post({article,img}) {
         {/* <hr />
         <span className="postDate">1 hour ago</span> */}
       </div>
-      <p className="postDesc">
+      {/* <p className="postDesc">
         {parse(article.content)}
+        
+       
+      </p> */}
+      <div className="sneak">
+        {parse(article.content)}
+        
         {/* {article.content} */}
-      </p>
+      </div>
+      <Link to={`/post/${article.slug}`} state={article} className="link" id='wrapper-link'></Link>
     </div>
+    
   );
 }

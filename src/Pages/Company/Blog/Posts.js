@@ -4,7 +4,7 @@ import "./posts.css";
 export default function Posts({articles}) {
   
   return (
-    <div className="posts">
+    <div className="posts" >
       
       {articles.slice(0).reverse().map((article)=> (
           

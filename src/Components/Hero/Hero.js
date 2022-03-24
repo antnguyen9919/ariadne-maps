@@ -20,9 +20,9 @@ const Hero2 = () => {
 <div className='container '>
 					<div className="row justify-content-center">
 				<div className="col-10">
-				<h1 style ={{fontFamily:'Poppins',fontSize:'43px'}} className='mb-3 lh-sm fw-bold text-left'>People Flow To<br/> Actionable Insights</h1>
-					<p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>Turn your existing customer traffic into an additional<br/> source of revenue</p>
-							{/* <button type="button" class="hero-button mt-3" style={{backgroundColor:'red'}}><p class='my-1 mx-3     lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button> */}
+				<h1 style ={{fontFamily:'Poppins'}} className='mb-3 lh-sm fw-bold text-left'>{t('home.heroh1')}</h1>
+					<p class='my-2 lh-md ' style ={{fontFamily:'Poppins'}}>{t('home.herop')}</p>
+							
 							<button id='hero-xxl-button' type="button" class=" mt-3"
 							><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 				</div>
@@ -38,6 +38,7 @@ const Hero2 = () => {
 					</div>
 		
 			
+	
 	</div>
 {/* medium large	 */}
 
@@ -46,8 +47,8 @@ const Hero2 = () => {
 <div className='container '>
 					<div className="row justify-content-center">
 				<div className="col-10">
-				<h1 style ={{fontFamily:'Poppins',fontSize:'4vw'}} className='mb-3  text-left'>People Flow To Actionable Insights</h1>
-					<p class='my-2 lh-md ' style ={{fontFamily:'Poppins',fontSize:'2vw'}}>Turn your existing customer traffic into an additional source of revenue</p>
+				<h1 style ={{fontFamily:'Poppins',fontSize:'4vw'}} className='mb-3  text-left'>{t('home.heroh1')}</h1>
+					<p class='my-2 lh-md ' style ={{fontFamily:'Poppins',fontSize:'2vw'}}>{t('home.herop')}</p>
 							
 							<button id='hero-xxl-button' type="button" class=" mt-3"
 							><p class='my-1 mx-3 text-light fw-bold    lh-md' style ={{fontFamily:'Poppins',fontSize:'2vw'}}>Let's Talk</p></button>
@@ -68,7 +69,7 @@ const Hero2 = () => {
 	</div>
 
 
-{/* extra large  */}
+{/* extra large  TRANSLATED */}
 <div id='h-xl' className = ' container-fluid  align-items-end text-light mt-5 pt-3' >
 		
 		<div className="row align-items-center">
@@ -96,8 +97,8 @@ const Hero2 = () => {
 		<div className="row ">
 				<div className="col-md-4 offset-md-1 col-sm-10 ">
 					
-				<h1 style ={{fontFamily:'Poppins',fontSize:'3vw',lineHeight:'normal',marginTop:'14vh'}} className=' text-left mb-4'>People Flow To<br/> Actionable Insights</h1>
-				<p class='my-2 lh-md ' style ={{fontFamily:'Poppins',fontSize:'1.5vw'}}>Turn your existing customer traffic into an additional source of revenue</p>
+				<h1 style ={{fontFamily:'Poppins',fontSize:'3vw',lineHeight:'normal',marginTop:'14vh'}} className=' text-left mb-4'>{t('home.heroh1')}</h1>
+				<p class='my-2 lh-md ' style ={{fontFamily:'Poppins',fontSize:'1.5vw'}}>{t('home.herop')}</p>
                         <button id='hero-xxl-button' type="button" class=" mt-3"
 						><p class='my-1 mx-3 text-light fw-bold    lh-md' style ={{fontFamily:'Poppins',fontSize:'1.5vw'}}>Let's Talk</p></button>
 					

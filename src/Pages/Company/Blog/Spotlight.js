@@ -75,7 +75,7 @@ function Spotlight() {
   
 
   return (
-    <div className="container-lg my-5 p-5 " id = 'spot'>
+    <div className="container-lg my-5 " id = 'spot'>
         
       <Slider {...settings}> 
                 {articles.map((article,idx)=>(

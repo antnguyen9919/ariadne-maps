@@ -14,7 +14,9 @@ function Navigation() {
     <div className="row align-items-end justify-content-around h-100">
       <div className="col-lg-6 align-self-center">
         <h1 >Ariadne<br/> Navigation</h1>
-        <p style={{fontFamily:'Poppins'}} >Engage with your visitors at the right time and the right place. Develop strategies targeted to specific clusters of customers</p>
+        <p style={{fontFamily:'Poppins'}} >Navigate your visitors in your business for an enhanced customer experience!
+
+        Present promotions in your map to engage and enhance your visitors satisfaction.</p>
         </div>
         <div className="col-lg-5">
           <img src={MunichOffice} alt=""  />

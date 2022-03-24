@@ -3,6 +3,7 @@ import {initReactI18next} from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { engT } from './en'
 import {deT} from './de'
+import {freT} from './fr'
 
 i18n
 
@@ -24,6 +25,9 @@ i18n
         },
         de: {
             translation: deT
+        },
+        fr:{
+            translation: freT
         }
     }
 

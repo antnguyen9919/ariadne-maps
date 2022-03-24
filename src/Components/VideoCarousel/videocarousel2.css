@@ -58,7 +58,73 @@ opacity: 0.8;
   top: 35%;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:1400px){
+  #vc{
+    padding: 0px 15px;
+    height:400px;
+  }
+
+
+#vc-m{
+  transition: transform 300ms;
+    height:30vh;
+    
+    width: 20vw;
+    
+opacity: 0.8;
+}
+
+#vc-active{
+  transition: transform 300ms;
+  height:35vh;
+  width: 80%;
+
+}
+#vc-m img{
+    display: block;
+    margin:auto;
+    width: 70%;
+    height:100%;
+}
+#vc-active img{
+  display: block;
+  margin:auto;
+  width: 90%;
+  height:100%;
+}
+
+
+
+
+#vc .arrow {
+  background:transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(2.1);
+}
+
+#vc .arrow svg {
+  transition: color 300ms;
+}
+
+#vc .arrow svg:hover {
+  color: #979797;
+}
+
+#vc .next {
+  right: 0%;
+  top: 40%;
+}
+
+#vc .prev {
+  left: 0%;
+  top: 40%;
+}
+
+}
+
+@media screen and (max-width:1399px){
     #vc{
       padding: 0px 15px;
     }
@@ -75,7 +141,7 @@ opacity: 0.8;
 
   #vc-active{
     transition: transform 300ms;
-    height:40vh;
+    height:35vh;
     width: 80%;
   
   }
@@ -122,10 +188,139 @@ opacity: 0.8;
   }
 
 }
+@media screen and (max-width:1100px){
+ 
+
+
+#vc-m{
+  transition: transform 300ms;
+    height:25vh;
+    
+    width: 20vw;
+    
+opacity: 0.8;
+}
+
+#vc-active{
+  transition: transform 300ms;
+  height:60vh;
+  width: 80%;
+
+}
+#vc-m img{
+    display: block;
+    margin:auto;
+    width: 70%;
+    height:100%;
+}
+#vc-active img{
+  display: block;
+  margin:auto;
+  width: 90%;
+  height:100%;
+}
 
 
 
-@media screen and (max-width:500px){
+
+#vc .arrow {
+  background:transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(2.1);
+}
+
+#vc .arrow svg {
+  transition: color 300ms;
+}
+
+#vc .arrow svg:hover {
+  color: #979797;
+}
+
+#vc .next {
+  right: 0%;
+  top: 40%;
+}
+
+#vc .prev {
+  left: 0%;
+  top: 40%;
+}
+
+}
+
+
+@media screen and (max-width:920px){
+  #vc{
+    padding: 0px 1px;
+  }
+
+
+#vc-m{
+  transition: transform 300ms;
+    height:25vh;
+    
+    width: 20vw;
+    
+opacity: 0.8;
+}
+
+#vc-active{
+  transition: transform 300ms;
+  height:40vh;
+  width: 80%;
+
+}
+#vc-m img{
+    display: block;
+    margin:auto;
+    width: 70%;
+    height:100%;
+}
+#vc-active img{
+  display: block;
+  margin:auto;
+  width: 90%;
+  height:100%;
+}
+
+
+
+
+#vc .arrow {
+  background:transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(2.1);
+}
+
+#vc .arrow svg {
+  transition: color 300ms;
+}
+
+#vc .arrow svg:hover {
+  color: #979797;
+}
+
+#vc .next {
+  right: 0%;
+  top: 40%;
+}
+
+#vc .prev {
+  left: 0%;
+  top: 40%;
+}
+
+}
+
+
+
+
+@media screen and (max-width:550px){
   #vc{
     padding: 0px 1px;
   }
@@ -141,7 +336,7 @@ opacity: 0.8;
   }
   #vc-active{
     transition: transform 300ms;
-    height:35vh;
+    height:40vh;
     width: 20vw;
   
   }
@@ -189,9 +384,9 @@ opacity: 0.8;
 
 }
 
-@media screen and (max-width:390px){
+@media screen and (max-width:420px){
   #vc{
-    padding: 0px 1px;
+    padding: 0px 10px;
   }
 
 

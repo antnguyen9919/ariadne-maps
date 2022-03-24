@@ -92,7 +92,7 @@ function Spotlight() {
   
 
   return (
-    <div className="container my-5 overflow-hidden" id = 'vc'>
+    <div className="container-fluid my-5 overflow-hidden" id = 'vc'>
         
       <Slider {...settings}> 
                 

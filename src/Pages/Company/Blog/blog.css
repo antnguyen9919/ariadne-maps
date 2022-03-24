@@ -1,0 +1,15 @@
+
+.blog-main{
+    display: flex;
+}
+
+  
+  
+  
+  
+@media screen and (max-width:992px) {
+   #side-bar {
+        display: none;
+    }
+    
+}

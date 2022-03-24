@@ -30,10 +30,10 @@ function Blog() {
     <>
       
     <Header />
-    <div style = {{display:'flex'}}>
+    <div style = {{display:'flex'}} className='my-5'>
       
       <Posts articles = {articles} />
-      <Sidebar />
+      
     </div>
   </>
   );

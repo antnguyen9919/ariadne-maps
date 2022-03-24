@@ -1,7 +1,8 @@
-.home-all{
+.home-all p,h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
   }
   
+
   #background-video {
       width: 100vw;
       height: 100vh;
@@ -17,17 +18,32 @@
           margin: 1px 0px;
   
     }
+  #intro-section-xl p, #ariadne-platform-xl p {
+    font-size:19px;
+  }
   
   
+  /* #intro-section h5{
+    font-size:22px;
+  } */
  
     
-  
+  #modal-small{
+    display:none;
+  }
    
   
     
     
   
-  
+  @media screen and (max-width:1000px){
+    #modal-big{
+      display:none;
+    }
+    #modal-small{
+      display:block;
+    }
+  }
   
   
   
@@ -54,6 +70,39 @@
     
   }
   
+  @media screen and (min-width: 1500px){
+    .home-all h1{
+      font-size:50px;
+    }
+
+
+    #ariadne-platform p{
+        font-size:23px;
+    }
+    #ariadne-platform h1{
+      font-size:33px;
+  }
+  #intro-section p{
+    font-size:22px;
+  }
+  #intro-section h5{
+    font-size:22px;
+  }
+  
+  }
+  @media screen and (max-width:576px){
+    .home-all p{
+      font-size: 12px;
+    }
+    #ariadne-platform-xl p{
+      font-size: 12px;
+    }
+    #intro-section-xl p{
+      font-size: 12px;
+
+    }
+
+  }
   
   
   main {

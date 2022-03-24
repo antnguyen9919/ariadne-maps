@@ -11,9 +11,9 @@ function Navbar() {
   const { t, i18n } = useTranslation();
   
 
-  const handleLanguage=(value)=>{
-      i18n.changeLanguage('de')
-  }
+  // const handleLanguage=(value)=>{
+  //     i18n.changeLanguage('de')
+  // }
   
 
   return (
@@ -28,13 +28,15 @@ function Navbar() {
 <span className="navbar-toggler-icon"></span>
 </button>
 <div className="collapse navbar-collapse " id="navbarNavDarkDropdown">
-<ul className="navbar-nav mx-auto">
 
-<li className="nav-item dropdown" id= 'roro'>
+<ul className="navbar-nav mx-auto"  >
+
+<li className="nav-item dropdown" id= 'roro' >
 
   <h5 className="nav-link dropdown active fw-normal mt-1" style ={{fontFamily:'Poppins'}}  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     {t('navFoot.solutions.self')}
   </h5>
+
   <ul id='kaka' className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
     <li><Link className="dropdown-item" to ="/ariadne-analytics">Ariadne Analytics</Link></li>
     {/* <li><Link className="dropdown-item" to ="/ariadne-mapping">Ariadne Mapping</Link></li> */}
@@ -104,7 +106,7 @@ function Navbar() {
         <div className="col "><img src = 'https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/35px-Flag_of_Germany.svg.png' className='rounded' /></div>
       </div>
     </li>
-    <li type='button' className="dropdown-item" onClick={()=>i18n.changeLanguage('de')}>
+    <li type='button' className="dropdown-item" onClick={()=>i18n.changeLanguage('fr')}>
       <div className="row">
         <div className="col-6"><p >French</p></div>
         <div className="col"><img src = 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/35px-Flag_of_France.svg.png' className='rounded'/></div>
