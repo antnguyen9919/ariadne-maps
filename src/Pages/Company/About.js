@@ -24,10 +24,10 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
     <h2>European Union</h2>
     
     <div className="row py-5">
-      <div className="col-md-3 ">
+      <div className="col-lg-3 ">
         <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/European-Union.png' width = '100%'/>
       </div>
-      <div className="col-md-8 ">
+      <div className="col-lg-8 ">
         <h5>Ariadne Maps is a European company, proudly supported by European Union.</h5>
       </div>
     </div>
@@ -36,10 +36,10 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
     <h2>EIT Digital</h2>
     
     <div className="row">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
         <img src = 'https://ariadnemaps.com/wp-content/uploads/2020/05/logo-eitdigital.jpg' width = '100%'/>
       </div>
-      <div className="col-md-8">
+      <div className="col-lg-8">
         <h5>Ariadne Maps is a European company, proudly supported by European Union.</h5>
       </div>
     </div>
@@ -53,7 +53,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
   <div className="container mt-5 text-center justify-content-center" id='employeeList'>
     
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2 "  >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Georgios.png" alt="" />
         <div className="card-body">
@@ -63,7 +63,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Nikos.png" alt="" />
         <div className="card-body">
@@ -73,7 +73,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2"  >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Nam.png" alt="" />
         <div className="card-body">
@@ -86,7 +86,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Mustafa.png" alt="" />
         <div className="card-body">
@@ -96,7 +96,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Hasim.png" alt="" />
         <div className="card-body">
@@ -106,7 +106,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Victoria.png" alt="" />
         <div className="card-body">
@@ -119,7 +119,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Pati.png" alt="" />
         <div className="card-body">
@@ -129,7 +129,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Francesco.png" alt="" />
         <div className="card-body">
@@ -139,7 +139,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Ira.png" alt="" />
         <div className="card-body">
@@ -152,7 +152,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/08/Najeeb.png" alt="" />
         <div className="card-body">
@@ -162,7 +162,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Wasiq.png" alt="" />
         <div className="card-body">
@@ -172,7 +172,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/03/Kostas.png" alt="" />
         <div className="card-body">
@@ -185,7 +185,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/08/KostasZ.png" alt="" />
         <div className="card-body">
@@ -195,7 +195,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/05/Xialoin.jpg" alt="" />
         <div className="card-body">
@@ -205,7 +205,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/08/KostasK.png" alt="" />
         <div className="card-body">
@@ -218,7 +218,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2021/08/Shahab.png" alt="" />
         <div className="card-body">
@@ -228,7 +228,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2022/01/Precious.png" alt="" />
         <div className="card-body">
@@ -238,7 +238,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2022/01/Mahade.png" alt="" />
         <div className="card-body">
@@ -251,7 +251,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2022/01/Karolina.png" alt="" />
         <div className="card-body">
@@ -261,7 +261,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2022/01/Elli.png" alt="" />
         <div className="card-body">
@@ -271,7 +271,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
         </div>
       </div>
       </div>
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2022/01/Roman.png" alt="" />
         <div className="card-body">
@@ -284,7 +284,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
       
     </div>
     <div className="row justify-content-md-around justify-content-sm-center">
-      <div className="col-md-3 col-sm-10">
+      <div className="col-lg-3 col-sm-10">
       <div class="card border-light m-2" >
         <img src="https://ariadnemaps.com/wp-content/uploads/2022/01/Athanasios2.png" alt="" />
         <div className="card-body">
@@ -305,7 +305,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
   <div className="container my-5">
           
       <div className="row justify-content-md-around">
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <h4>Munich, Germany</h4>
           <p>Our headquarter is based in Munich, Germany.</p>
           <ul>
@@ -314,7 +314,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
             <li><span><LocationOnIcon/></span>Brecherspitzstraße 8, 81541 Munich, Germany</li>
           </ul>
         </div>
-        <div className="col-md-4 ">
+        <div className="col-lg-4 ">
           <h4>Veria, Greece</h4>
           <p>Our Greek office accommodates the R&D department.</p>
           <ul>
@@ -323,7 +323,7 @@ Ariadne Maps is based in Munich, Germany and has been operating for years. With 
             <li><span><LocationOnIcon/></span>Plateia Raktivan 12, Veria 591 32, Greece</li>
           </ul>
         </div>
-        <div className="col-md-4 ">
+        <div className="col-lg-4 ">
           <h4>Berkeley, CA, USA</h4>
           <p>Our USA office serves our clients in North America.</p>
           <ul>

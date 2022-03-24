@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar/Navbar';
 import { About, Airport, Analytics, Career, Cities, Contact, Engagement, Hospitality, Mall, Mapping, Navigation, Privacy, Retail, Transport, WhyAriadne, Blog, Single, BlogManagement } from './Pages';
 import Home from './Pages/Home';
 import {Footer} from './Components'
+  
+
 
 function App() {
   const ScrollToTop = (props) => {
@@ -45,7 +47,7 @@ function App() {
           <Route exact  path = "/about-us" element = {<About/>}/>
           <Route exact  path = "/blog" element = {<Blog/>}/>
           <Route exact  path = "/blog-management" element = {<BlogManagement/>}/>
-          <Route exact path="/post/:id" element = {<Single />}/>
+          <Route exact path="/post/:slug" element = {<Single />}/>
           {/* <Route exact  path = "/blog/:slug" element = {<PostPage/>}/> */}
           <Route exact  path = "/careers" element = {<Career/>}/>
           <Route exact  path = "/contact" element = {<Contact/>}/>

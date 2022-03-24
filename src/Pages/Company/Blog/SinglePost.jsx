@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./singlepost.css";
 import parse from 'html-react-parser'
 
@@ -29,9 +29,9 @@ export default function SinglePost({data}) {
           </span>
           <span>1 day ago</span>
         </div> */}
-        <p className="singlePostDesc">
+        <div className="singlePostDesc">
         {parse(data.content)}
-        </p>
+        </div>
       </div>
     </div>
   );

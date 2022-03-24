@@ -88,7 +88,7 @@ function Spotlight() {
                     </div>  
                     
                     
-                    <Link to={`/post/${article.id}`} state={article} className="link">
+                    <Link to={`/post/${article.slug}`} state={article} className="link">
                     <button className="btn btn-sm shadow border btn-danger align-self-end ">Learn more</button>
           </Link>
 

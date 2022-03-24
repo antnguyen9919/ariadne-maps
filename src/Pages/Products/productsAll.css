@@ -1,0 +1,61 @@
+
+#navi-hero, #enga-hero{
+    height: 47vw;
+    overflow-y: hidden;
+}
+#navi-hero img{
+    width: 100%;
+    /* bottom: -50%; */
+}
+#navi-hero .col-lg-6,#enga-hero .col-lg-6   {
+    /* border: solid 1px red; */
+    /* margin-left:3vw; */
+    width: 40vw;
+}
+
+#navi-hero h1,#enga-hero h1 {
+    font-family: "Poppins";
+    font-size: 4vw;
+    line-height: normal;
+}
+
+#navi-hero p,#enga-hero p{
+    font-family: "Poppins";
+    font-size: 1.4vw;
+}
+#navi-main p, #enga-main p{
+    font-family: "Poppins";
+    font-size:1.4vw;
+}
+#navi-main .col-lg-5 img{
+    /* width: 100%; */
+    height: 70vh;
+    width: 100%;
+
+}
+
+#navi-end h2{
+    color:rgb(218, 0, 0);
+    text-decoration: underline;
+}
+
+#navi-end h2:hover{
+    color:rgb(148, 0, 0);
+    text-decoration: underline;
+}
+#navi-end p{
+    margin-top: 20px
+}
+
+#enga-end h2{
+    color:rgb(218, 0, 0);
+    text-decoration: underline;
+}
+
+#enga-end h2:hover{
+    color:rgb(148, 0, 0);
+    text-decoration: underline;
+}
+#enga-end p{
+    margin-top: 20px
+}

@@ -1,0 +1,254 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+#vc-m{
+  transition: transform 300ms;
+    height:25vh;
+    
+    width: 20vw;
+    
+opacity: 0.8;
+}
+#vc-active{
+  
+  height:35vh;
+  width: 20vw;
+
+}
+#vc-m img{
+    display: block;
+    margin:auto;
+    width: 70%;
+    height:100%;
+}
+#vc-active img{
+  display: block;
+  margin:auto;
+  width: 100%;
+  height:100%;
+}
+
+
+
+
+#vc .arrow {
+  background:transparent;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  transform: scale(2.1);
+}
+
+#vc .arrow svg {
+  transition: color 300ms;
+}
+
+#vc .arrow svg:hover {
+  color: #979797;
+}
+
+#vc .next {
+  right: -1%;
+  top: 35%;
+}
+
+#vc .prev {
+  left: -1%;
+  top: 35%;
+}
+
+@media screen and (max-width:1200px){
+    #vc{
+      padding: 0px 15px;
+    }
+
+
+  #vc-m{
+    transition: transform 300ms;
+      height:25vh;
+      
+      width: 20vw;
+      
+  opacity: 0.8;
+  }
+
+  #vc-active{
+    transition: transform 300ms;
+    height:40vh;
+    width: 80%;
+  
+  }
+  #vc-m img{
+      display: block;
+      margin:auto;
+      width: 70%;
+      height:100%;
+  }
+  #vc-active img{
+    display: block;
+    margin:auto;
+    width: 90%;
+    height:100%;
+  }
+  
+  
+  
+  
+  #vc .arrow {
+    background:transparent;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    transform: scale(2.1);
+  }
+  
+  #vc .arrow svg {
+    transition: color 300ms;
+  }
+  
+  #vc .arrow svg:hover {
+    color: #979797;
+  }
+  
+  #vc .next {
+    right: 0%;
+    top: 40%;
+  }
+  
+  #vc .prev {
+    left: 0%;
+    top: 40%;
+  }
+
+}
+
+
+
+@media screen and (max-width:500px){
+  #vc{
+    padding: 0px 1px;
+  }
+
+
+  #vc-m{
+    transition: transform 300ms;
+      height:25vh;
+      
+      width: 20vw;
+      
+  opacity: 0.8;
+  }
+  #vc-active{
+    transition: transform 300ms;
+    height:35vh;
+    width: 20vw;
+  
+  }
+  #vc-m img{
+      display: block;
+      margin:auto;
+      width: 70%;
+      height:100%;
+  }
+  #vc-active img{
+    display: block;
+    margin:auto;
+    width: 90%;
+    height:100%;
+  }
+  
+  
+  
+  
+  #vc .arrow {
+    background:transparent;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    transform: scale(2.1);
+  }
+  
+  #vc .arrow svg {
+    transition: color 300ms;
+  }
+  
+  #vc .arrow svg:hover {
+    color: #979797;
+  }
+  
+  #vc .next {
+    right: 0%;
+    top: 40%;
+  }
+  
+  #vc .prev {
+    left: 0%;
+    top: 40%;
+  }
+
+}
+
+@media screen and (max-width:390px){
+  #vc{
+    padding: 0px 1px;
+  }
+
+
+  #vc-m{
+    transition: transform 300ms;
+      height:25vh;
+      
+      width: 20vw;
+      
+  opacity: 0.8;
+  }
+  #vc-active{
+    transition: transform 300ms;
+    height:30vh;
+    width: 20vw;
+  
+  }
+  #vc-m img{
+      display: block;
+      margin:auto;
+      width: 70%;
+      height:100%;
+  }
+  #vc-active img{
+    display: block;
+    margin:auto;
+    width: 90%;
+    height:100%;
+  }
+  
+  
+  
+  
+  #vc .arrow {
+    background:transparent;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    transform: scale(1.5);
+  }
+  
+  #vc .arrow svg {
+    transition: color 300ms;
+  }
+  
+  #vc .arrow svg:hover {
+    color: #979797;
+  }
+  
+  #vc .next {
+    right: 0%;
+    top: 40%;
+  }
+  
+  #vc .prev {
+    left: 0%;
+    top: 40%;
+  }
+
+}

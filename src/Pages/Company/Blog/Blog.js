@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import {collection, getDocs} from "firebase/firestore"
-// import { useLocation } from 'react-router';
+
 import Header from './Header'
 import Posts from './Posts'
 import Sidebar from './Sidebar'
@@ -38,6 +38,7 @@ function Blog() {
   </>
   );
 }
+
 
 
 export default Blog

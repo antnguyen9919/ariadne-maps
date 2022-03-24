@@ -2,10 +2,12 @@ import React from 'react';
 import './footer.css';
 import Asset16 from '../../Resources/Photos/Asset16.png';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 
 function Footer() {
+  const { t, i18n } = useTranslation();
   return (
     
     <div className="container-fluid bg-black">
@@ -15,17 +17,17 @@ function Footer() {
     
       
  
-<div class='footer-links'>
+<div className='footer-links'>
       
   <div className='footer-link-wrapper'>
-    <div class='footer-link-items'>
-    <Link class =' my-2'  to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
+    <div className='footer-link-items'>
+    <Link className=' my-2'  to='/' > <img src={Asset16} alt="Ariadne Logo" width="140x"/>
                             
                             </Link>
     </div>
 
-    <div class='footer-link-items'>
-      <h3>Technology</h3>
+    <div className='footer-link-items'>
+      <h3>{t('navFoot.solutions.self')}</h3>
       <Link to='/ariadne-mapping'>Ariadne Mapping</Link>
       <Link to='/ariadne-navigation'>Ariadne Navigation</Link>
       <Link to='/ariadne-analytics'>Ariadne Analytics</Link>
@@ -37,21 +39,21 @@ function Footer() {
 
   <div className='footer-link-wrapper'>
     
-  <div class='footer-link-items'>
-      <h3>Company</h3>
-      <Link to='/about-us'>About Us</Link>
-      <Link to='/why-ariadne'>Why Ariadne</Link>
+  <div className='footer-link-items'>
+      <h3>{t('navFoot.company.self')}</h3>
+      <Link to='/about-us'>{t('navFoot.company.aboutus')}</Link>
+      <Link to='/why-ariadne'>{t('navFoot.whyariadne')}</Link>
       {/* <Link to='/resources'>Resources</Link> */}
       <Link to='/blog'>Blog</Link>
-      <Link to='/careers'>Careers</Link>
+      <Link to='/careers'>{t('navFoot.company.careers')}</Link>
     </div>
 
-    <div class='footer-link-items'>
+    <div className='footer-link-items'>
       <div>
     
     
-      <button id='hero-xxl-button' type="button" class="mb-2"
-						><p class='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
+      <button id='hero-xxl-button' type="button" className="mb-2"
+						><p className='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Let's Talk</p></button>
 
       </div>
       <div className="para">
@@ -70,10 +72,10 @@ contact@ariadnemaps.com
       </div>
       
 <div style={{fontSize:'20px'}}>
-<a style={{marginRight:'15px'}} href='https://www.facebook.com/ariadnemaps/'><i class='fab fa-facebook-f' /></a>
-      <a class = 'mx-3' href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'><i class='fab fa-youtube' /></a>
-      <a class = 'mx-3' href='https://twitter.com/ariadne_maps'><i class='fab fa-twitter' /></a>
-      <a class = 'mx-3' href='https://www.linkedin.com/company/ariadne-maps'><i class='fab fa-linkedin' /></a>
+<a style={{marginRight:'15px'}} href='https://www.facebook.com/ariadnemaps/'><i className='fab fa-facebook-f' /></a>
+      <a className= 'mx-3' href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'><i className='fab fa-youtube' /></a>
+      <a className= 'mx-3' href='https://twitter.com/ariadne_maps'><i className='fab fa-twitter' /></a>
+      <a className= 'mx-3' href='https://www.linkedin.com/company/ariadne-maps'><i className='fab fa-linkedin' /></a>
 </div>
             </div>
 
@@ -83,23 +85,23 @@ contact@ariadnemaps.com
 
 <hr className = 'divider'/>
 
-<section class='social-media'>
-  <div class='social-media-wrap'>
+<section className='social-media'>
+  <div className='social-media-wrap'>
    <div>
-    <small class='website-rights'>© 2019 - 2022 Ariadne Maps GmbH. All rights reserved.</small>
+    <small className='website-rights'>© 2019 - 2022 Ariadne Maps GmbH. All rights reserved.</small>
 
    </div>
     
-    <div class='social-icons'>
+    <div className='social-icons'>
       <Link
-        class='social-icon-link facebook'
+        className='social-icon-link facebook'
         to='/privacy'
        
       >
         Privacy Policy
       </Link>
       <Link
-        class='social-icon-link instagram'
+        className='social-icon-link instagram'
         to='/'
         
       >

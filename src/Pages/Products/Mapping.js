@@ -1,6 +1,6 @@
 import '../../App.css';
 import React from 'react';
-import h3 from '../../Resources/Photos/h3.gif';
+import h4 from '../../Resources/Photos/h4.gif';
 import MunichOffice from '../../Resources/Photos/Pages/Navigation/MunichOffice.png';
 import Usecase from '../../Components/Usecase'
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ function Mapping() {
  <div className="container-fluid bg-dark text-white px-5">
 
 <div className="row align-items-center">
-  <div className="col-md-6 align-self-center">
+  <div className="col-lg-6 align-self-center">
     <h1 style={{fontFamily:'Poppins'}} className='display-4 fw-bold'>Ariadne <br/>
 
 Mapping</h1>
@@ -18,7 +18,7 @@ Mapping</h1>
 
 Engage your customers not only in the physical space but also in the digital environment</p>
     </div>
-    <div className="col-md-6">
+    <div className="col-lg-6">
       <img src={MunichOffice} alt="" height={'500px'} width = '80%' />
       </div>
   </div>
@@ -26,15 +26,16 @@ Engage your customers not only in the physical space but also in the digital env
   <main>
   <div className="container-fluid  p-5" style = {{backgroundColor: '#f2f2f2'}}>
       <div className="row align-items-center justify-content-between ">
-      <div className="col-md-6">
+      <div className="col-lg-6">
         
         <p className='lh-lg fs-4'>Transform your physical business into a digital landscape.
         <br/>
 By enabling you to map and localize your products, Ariadne increases your efficiency.
 </p>
         </div>
-      <div className="col-md-5">
-        <img src={h3} alt="" className='img-fluid rounded shadow'/>
+      <div className="col-lg-5">
+        
+        <video src={h4} autoPlay loop muted type = "videos/mp4" class ='rounded shadow' style = {{width: '103%', pointerEvents: "none"}}/>
         </div>
       </div>
 
@@ -61,21 +62,21 @@ By enabling you to map and localize your products, Ariadne increases your effici
       </div>
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Map.svg' alt ='' class = 'img-fluid' width='27%'/>
             <h2>Digital Conversion</h2>
             <p>
 
 Create the digital version of your static map and have a holistic overview of your spaces in real time. </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width='27%'/>
             <h2>Asset Positioning</h2>
             <p>
 
 Place your assets and properties in the map and don’t waste your time with wayfinding and navigation</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Branding.png' alt ='' />
             <h2>Branding</h2>
             <p>
@@ -84,14 +85,14 @@ Customize your digital map in line with your brand and colors, show off your val
           </div>
         </div>
         <div className="row justify-content-around mt-2 py-5">
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Settings.png' alt ='' class = 'img-fluid'/>
             <h2>Integration</h2>
             <p>
 
 Integrate your digital map with your existing infrastructure and tools like CRM to get the most benefits</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/City.svg' alt ='' class = 'img-fluid' width='27%'/>
             <h2>Detailed Overview</h2>
             <p>
@@ -99,7 +100,7 @@ Integrate your digital map with your existing infrastructure and tools like CRM 
 Insert details about your assets and areas, help your visitors zoom and find what they need with ease</p>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-lg-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/04/Updates.png' alt ='' class = 'img-fluid'/>
             <h2>Customization</h2>
             <p>
@@ -115,7 +116,7 @@ Customize, edit and update your map with changes in your spaces, add or remove a
       </div>
       <div className="container">
         <div className="row justify-content-around mt-5 py-5">
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Navigation.svg' alt ='' class = 'img-fluid' width="27%"/>
             
             <Link to="/" className = "text-decoration-none"><h2>Ariadne Navigation</h2></Link>
@@ -123,7 +124,7 @@ Customize, edit and update your map with changes in your spaces, add or remove a
 
 Navigate your visitors and guests for an enhanced experience; show ads and promotions in your map to engage and help your customers find the right products with convenience. Ariadne Maps helps lets you use navigation data to optimize your strategies. </p>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg' alt ='' class = 'img-fluid' width="27%"/>
             
             <Link to="/" className = "text-decoration-none"><h2>Ariadne Analytics</h2></Link>
@@ -131,7 +132,7 @@ Navigate your visitors and guests for an enhanced experience; show ads and promo
 
 Ariadne’s indoor analytics encompasses a wide variety of tools that will help you improve in every aspect of your business. From people counting to heatmaps to loyalty rates, you can view your performance, develop new strategies and watch your returns increasing.</p>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
           <img src = 'https://ariadnemaps.com/wp-content/uploads/2021/03/Engagement.svg' alt ='' width='27%'/>
              
             <Link to="/" className = "text-decoration-none"><h2>Ariadne Engagement</h2></Link>
@@ -144,10 +145,8 @@ Ariadne comes with an opt-in option for your customers. Even though the core tec
         
       </div>
 
-      <div class='text-center'>
-        <h1>Discover Our Use Cases</h1>
-      </div>
-      <Usecase/>
+      
+      <Usecase title = 'Discover our Use Cases'/>
   </main>
 </div>;
 }

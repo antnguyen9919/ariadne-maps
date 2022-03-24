@@ -10,10 +10,7 @@ import Explainer from '../ResComp/Explainer.png'
 import Praktiker from '../ResComp/Praktiker.png'
 
 
-import video0 from '../../Resources/Videos/VidCaro/video0.mp4'
-import video1 from '../../Resources/Videos/VidCaro/video1.mp4'
-import video2 from '../../Resources/Videos/VidCaro/video2.mp4'
-import video3 from '../../Resources/Videos/VidCaro/video3.mp4'
+
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import ReactPlayer from 'react-player'
 const images = [Marien,Praktiker,Weko,Explainer];
@@ -100,10 +97,10 @@ function VideoCarousel({click}) {
         {images.map((img, idx) => (
             
 <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            {idx === imageIndex?<img class = 'shadow-lg' id ='vid-img' src={img} alt={img} 
+            {idx === imageIndex?<img id ='vid-img' src={img} alt={img} 
             type="button" data-bs-toggle="modal" data-bs-target= {`#vid${idx}`}
             onClick={((e) => handleClick(e, idx))}/>:
-            <img class = 'shadow-lg' id ='vid-img' src={img} alt={img} 
+            <img id ='vid-img' src={img} alt={img} 
             />}
             
           </div>))}
@@ -113,7 +110,7 @@ function VideoCarousel({click}) {
       
             <div>
             <div class="modal fade" id="vid0" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg ">
+  <div class="modal-dialog  modal-fullscreen ">
     <div class="modal-content">
       <div class="modal-header">
         
@@ -124,7 +121,8 @@ function VideoCarousel({click}) {
       <div class="modal-body">
       <div className="container">
       
-      <ReactPlayer url={video0} playing={play0} controls  width='100%' height='100%' />
+      {/* <ReactPlayer url={video0} playing={play0} controls  width='100%' height='100%' /> */}
+      <ReactPlayer url='https://youtu.be/tWzIRapoac8' playing={play0} controls  width='100%' height='80vh' />
       
       </div>
 </div>
@@ -133,7 +131,7 @@ function VideoCarousel({click}) {
   </div>
 </div>
             <div class="modal fade" id="vid1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg ">
+  <div class="modal-dialog  modal-fullscreen ">
     <div class="modal-content">
       <div class="modal-header">
         
@@ -144,7 +142,7 @@ function VideoCarousel({click}) {
       <div class="modal-body">
       <div className="container">
       
-      <ReactPlayer url={video1} playing={play1} controls  width='100%' height='100%' />
+      <ReactPlayer url='https://youtu.be/UObhsmW9RgM' playing={play1} controls  width='100%' height='80vh' />
       
       </div>
 </div>
@@ -153,7 +151,7 @@ function VideoCarousel({click}) {
   </div>
 </div>
             <div class="modal fade" id="vid2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg ">
+  <div class="modal-dialog  modal-fullscreen ">
     <div class="modal-content">
       <div class="modal-header">
         
@@ -164,7 +162,7 @@ function VideoCarousel({click}) {
       <div class="modal-body">
       <div className="container">
       
-      <ReactPlayer url={video2} playing={play2} controls  width='100%' height='100%' />
+      <ReactPlayer url='https://www.youtube.com/watch?v=xFkPAAUrFAA' playing={play2} controls  width='100%' height='80vh' />
       
       </div>
 </div>
@@ -173,7 +171,7 @@ function VideoCarousel({click}) {
   </div>
 </div>
             <div class="modal fade" id="vid3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg ">
+  <div class="modal-dialog  modal-fullscreen ">
     <div class="modal-content">
       <div class="modal-header">
         
@@ -184,7 +182,7 @@ function VideoCarousel({click}) {
       <div class="modal-body">
       <div className="container">
       
-      <ReactPlayer url={video3} playing={play3} controls  width='100%' height='100%' />
+      <ReactPlayer url='https://www.youtube.com/watch?v=LarUhK6GAmI' playing={play3} controls  width='100%' height='80vh' />
       
       </div>
 </div>

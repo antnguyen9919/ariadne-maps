@@ -9,7 +9,7 @@ export default function Post({article,img}) {
   // }
   return (
     <div className="post">
-      <Link to={`/post/${article.id}`} state={article} className="link">
+      <Link to={`/post/${article.slug}`} state={article} className="link">
       <img
         className="postImg"
         src={img}
@@ -18,7 +18,7 @@ export default function Post({article,img}) {
           </Link>
       
       <div className="postInfo">
-        <div className="postCats">
+        {/* <div className="postCats">
           <span className="postCat">
             <Link className="link" to="/posts?cat=Music">
               Music
@@ -29,9 +29,9 @@ export default function Post({article,img}) {
               Life
             </Link>
           </span>
-        </div>
+        </div> */}
         <span className="postTitle">
-          <Link to={`/post/${article.id}`} state={article} className="link">
+          <Link to={`/post/${article.slug}`} state={article} className="link">
             {article.title}
           </Link>
         </span>
@@ -40,6 +40,7 @@ export default function Post({article,img}) {
       </div>
       <p className="postDesc">
         {parse(article.content)}
+        {/* {article.content} */}
       </p>
     </div>
   );

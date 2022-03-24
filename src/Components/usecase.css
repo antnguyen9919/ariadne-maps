@@ -1,0 +1,16 @@
+#usecase p{
+    font-family:'Poppins';
+    font-size: normal;
+    
+}
+
+#usecase h5{
+    color:rgb(218, 0, 0);
+    text-decoration: underline;
+
+}
+
+#usecase h5:hover{
+    color:rgb(148, 0, 0);
+    text-decoration: underline;
+}

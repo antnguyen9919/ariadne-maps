@@ -5,8 +5,8 @@ import db from '../../../Config/firebase'
 import {collection, addDoc} from "firebase/firestore"
 const articlesCollectionRef = collection(db,"BlogArticles");
 
-const createArt = async(title,content)=>{
-    await addDoc(articlesCollectionRef,{title:title,content:content})
+const createArt = async(title,content, slug)=>{
+    await addDoc(articlesCollectionRef,{title:title,content:content,slug:slug})
 }
 
 export default class NewPost extends Component {
@@ -16,6 +16,7 @@ export default class NewPost extends Component {
                  article:{
                      title:'',
                      content:'',
+                     slug:''
                      
                  }   
         }
@@ -24,6 +25,8 @@ export default class NewPost extends Component {
         this.setState({ editorHtml: html });
       }
 
+      
+     
     
 
 
@@ -70,6 +73,7 @@ export default class NewPost extends Component {
           matchVisual: false,
         }
       };  
+
     onChangeArticleTitle= (value)=>{
         this.setState({
             article:{
@@ -86,6 +90,13 @@ export default class NewPost extends Component {
             }
         })
     }  
+     convertToSlug=(Text)=> {
+      return Text.toLowerCase()
+                 .replace(/ /g, '-')
+                 .replace(/[^\w-]+/g, '');
+
+                 
+    }
     
     submitArticle =()=>{
         const article = this.state.article
@@ -95,7 +106,9 @@ export default class NewPost extends Component {
         //     console.log(res)
         // }).catch(err=>console.log(err))
 
-         createArt(article.title,article.content)
+        
+
+         createArt(article.title,article.content, this.convertToSlug(article.title))
 
     } 
 

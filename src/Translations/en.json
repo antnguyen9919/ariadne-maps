@@ -1,0 +1,64 @@
+{
+    
+    "letstalk": "",
+    
+    "navFoot": {
+        "solutions": {
+                        "self":"Solutions",
+                        "analytics":"Ariadne Analytics",
+                        "engagement":"Ariadne Engagement",
+                        "mapping":"Ariadne Mapping",
+                        "navigation":"Ariadne Navigation"
+
+        },
+        "industries":{
+                        "self":"Industries",
+                        "retail":"Retail Stores",
+                        "mall":"Shopping Centres",
+                        "airports":"Airports",
+                        "cities":"Cities",
+                        "hospitality":"Hospitalities",
+                        "transportation":"Transportation"
+        },
+        "whyariadne":"Why Ariadne",
+        "company":{
+                        "self":"Company",
+                        "aboutus":"About Us",
+                        "careers":"Careers",
+                        "contact":"Contact"
+        }
+    },
+    
+    "home":{
+        "heroh1":"People Flow To Actionable Insights ",
+        "herop":"Turn your existing customer traffic into an additional source of revenue",
+        "home-sec-1":{
+                        "title":"Unlock the value of your data and multiply your returns!",
+                        "p":"Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors’ behavior, it consults you on strategies, and provides you with recommendations for the future.",
+
+                        "ul": ["Footfall (Total and by area)","Dwell Time(Total and by area)",
+                        "Heatmap (2D and 3D)","Transitions between areas)","ERP, BI, POS Integration"],
+                        "enlarge":"Enlarge"
+        },
+        "home-sec-2-title":"See how our customers are succeeding with Ariadne",
+        "ariadne-platform-p": [
+            "Obtain people counting, heatmaps, loyalty rate and more! With Ariadne analytics, you can review your performance in real time.",
+
+            "Navigate your visitors and guests for an enhanced experience! Present promotions in your map to engage and enhance your visitors satisfaction.",
+
+            "Ariadne enables your visitors to opt-in to your loyalty program! The opt-in feature enables you to push notifications to your visitors the right moment.",
+            
+            "Transform your physical business into a digital landscape. By enabling you to map and localize your products, Ariadne increases your efficiency."],
+        "testimonials-title":"Trusted by industry leaders",
+        "products-sec":{
+                         "title":"Get Started",
+                         "subtitle":"Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.",
+                         "name":["Configuration","Installation","The Dashboard"],
+                         "desc":["Let our team design a project based on your floor plan and industry.","Simply plug the devices in the predetermined sockets.","Voila! Now you can make the most out of your existing traffic."]  
+        },
+        "spotlight":"Spotlight",
+        "iframe-sec":"Schedule a free 30 minute demo call with an expert"
+    }
+
+    
+  }
