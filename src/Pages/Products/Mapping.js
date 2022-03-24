@@ -1,6 +1,6 @@
 import '../../App.css';
 import React from 'react';
-import h4 from '../../Resources/Photos/h4.gif';
+import h4 from '../../Resources/Photos/h4.mp4';
 import MunichOffice from '../../Resources/Photos/Pages/Navigation/MunichOffice.png';
 import Usecase from '../../Components/Usecase'
 import { Link } from "react-router-dom";

@@ -1,4 +1,6 @@
-export const engT = {
+export const engT = 
+
+{
     
     "letstalk": "Let's talk",
     
@@ -60,7 +62,9 @@ export const engT = {
         },
         "spotlight":"Spotlight",
         "iframe-sec":"Schedule a free 30 minute demo call with an expert"
-    },
+    }
+    
+    ,
 
     "analytics":{
         "hero-p":"Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it",

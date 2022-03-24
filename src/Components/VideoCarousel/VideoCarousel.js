@@ -4,10 +4,10 @@ import Slider from "react-slick";
 
 
 
-import Weko from '../ResComp/Weko.png'
-import Marien from '../ResComp/Marien.png'
-import Explainer from '../ResComp/Explainer.png'
-import Praktiker from '../ResComp/Praktiker.png'
+import Weko from '../ResComp/Weko.jpg'
+import Marien from '../ResComp/Marien.jpg'
+import Explainer from '../ResComp/Explainer.jpg'
+import Praktiker from '../ResComp/Praktiker.jpg'
 
 
 

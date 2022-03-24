@@ -1,7 +1,7 @@
 import '../../App.css';
 import React from 'react';
 import h3 from '../../Resources/Photos/h3.mp4';
-import Phone from '../../Resources/Photos/Pages/Engagement/Phone.png'
+import Phone from '../../Resources/Photos/Pages/Engagement/Phone.jpg'
 import somescreen from '../../Resources/Photos/Pages/Engagement/somescreen.png'
 import phone2 from '../../Resources/Photos/Pages/Engagement/phone2.jpg'
 import phonewp from '../../Resources/Photos/Pages/Engagement/phonewp.png'
